@@ -150,7 +150,7 @@ if menu_chon == "🏠 Trang Chủ & Định Giá":
                 else:
                     with st.spinner("AI đang xử lý hình ảnh..."):
                         try:
-                            genai.configure(api_key="AIzaSy...")
+                            genai.configure(api_key="AIzaSyAQ.Ab8RN6KLDhJo4zlyJDvCyAJpO2_bD0KgtXAeVieb_tF-DLqgVg")
                             model = genai.GenerativeModel('gemini-3.8-flash')
                             
                             prompt = (
